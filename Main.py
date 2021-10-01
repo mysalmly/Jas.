@@ -18,7 +18,7 @@ bot = commands.Bot(command_prefix=PREFIX, intents=INTENTS)
 bot.remove_command("help")
 
 
-@bot.group()
+@bot.command()
 async def help(ctx):
     em = discord.Embed(Title = "Help", Description = "Use the actual goddamned command for more info")
 
