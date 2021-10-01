@@ -18,11 +18,11 @@ bot = commands.Bot(command_prefix=PREFIX, intents=INTENTS)
 bot.remove_command("help")
 
 
-@bot.group(invoke_without_command=True)
-async def help(ctx):.
+@bot.group()
+async def help(ctx):
     em = discord.Embed(Title = "Help", Description = "Use the actual goddamned command for more info")
 
-    em.add_field("Fun", value = "`bored`, `ping`, `kill`, `Saj`, `Soj`, `Jos`, `Kai`, `Forgor`, `nico` ")
+    em.add_field("Fun", value = "`bored`, `ping`, `kill`, `Saj`, `Soj`, `Jos`, `Kai`, `Forgor`, `nicokawai` ")
     em.add_field("Moderation", value = "`DOESNT EXIST yet..")
 
     await ctx.send(embed = em)
@@ -45,7 +45,7 @@ async def everyone(ctx):
 
 @bot.command()
 async def kill(ctx):
-    await ctx.send("R.I.P")
+    await ctx.send("R.I.P janazah time bois n gurls")
 
 
 @bot.command()
@@ -74,8 +74,8 @@ async def forgor(ctx):
 
 
 @bot.command()
-async def nico(ctx):
-    await ctx.send('nico nico **.kill your kneecaps** :reality: ')
+async def nicokawai(ctx):
+    await ctx.send(' ima break your nico nico kneecaps stay halal bois ')
 
 
 @bot.event
