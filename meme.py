@@ -6,7 +6,7 @@ PREFIX = '.'
 INTENTS = discord.Intents.default()
 bot = commands.Bot(command_prefix=PREFIX, intents=INTENTS)
 
-class Meme(commands.Cog):
+class meme(commands.Cog):
     def __init__(self, bot:commands.Bot):
         self.bot = bot
 
@@ -36,4 +36,4 @@ class Meme(commands.Cog):
 
 
                 def setup(bot:commands.Bot):
-                    bot.add_cog(Meme(bot))
+                    bot.add_cog(meme(bot))
