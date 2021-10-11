@@ -28,7 +28,7 @@ bot.remove_command("help")
 @bot.event
 async def on_ready():
     print(f"We have logged in as {bot.user}")
-    await bot.change_presence(activity=discord.Game(name = "Join r/islamichistorymeme on all their socials today! | Watching IHM's discord server"))
+    await bot.change_presence(activity=discord.Watching(name = "r/islamichistorymeme"))
 
 
 bot.run(TOKEN)

@@ -12,7 +12,7 @@ async def SuperSecretAdminCMD(ctx):
 
 @commands.Cog.listener()
 async def ping(ctx):
-    await ctx.send('pongerino! ')
+    await ctx.send('await ctx.send(f"Pong! {round(self.bot.latency * 1000)}ms")')
 
 
 @commands.Cog.listener()
