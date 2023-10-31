@@ -1,2 +1,5 @@
 # Jas.
-The code for the disc bot im working on
+
+Old discord.py bot I made as a kid
+
+includes basic commands and some games and meme cmds
