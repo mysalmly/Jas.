@@ -1,4 +1,4 @@
-# Jas.
+# Jas
 
 Old discord.py bot I made as a kid
 
